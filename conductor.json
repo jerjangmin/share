@@ -1,5 +1,0 @@
-{
-    "scripts": {
-        "setup": "git pull origin main && git -C $(git worktree list | head -1 | awk '{print $1}') pull origin main"
-    }
-}
